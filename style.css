@@ -1,0 +1,97 @@
+
+nav {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+min-height: 8vh;
+background-color: rgb(6, 240, 169);
+font-family: 'Open Sans', sans-serif;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.45);
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+}
+
+
+
+.nav-links{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+  margin-right: 8px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    }
+    
+    .nav-links li{
+        list-style: none;
+    }
+
+    nav ul li a::after{
+        height: 2px;
+        content: "";
+        display: block;
+        margin: auto;
+        transition: 1s;
+        width: 0;
+        background-color: white;
+    }
+    
+    nav ul li a:hover:after{
+        width: 100%;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .item{
+        border: 1px solid white;
+        width: 480px;
+        margin-top: 50px;
+        margin-left: 10%;
+        -webkit-box-shadow: 0px 14px 23px -5px rgba(0,0,0,0.46); 
+         box-shadow: 0px 14px 23px -5px rgba(122, 122, 122, 0.46);
+         border-top: none;
+         height: 213px;
+    }
+
+    .przyciskE{
+        color: rgb(0, 255, 128);
+        border: none;
+        float: right;
+        font-size: 15px;
+    }
+
+    .przyciskU{
+        color: rgb(0, 255, 128);
+        border: none;
+        float: right;
+         font-size: 15px;
+
+    }
+
+.tytuł1{
+    font-size: 20px
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lista{
+    color: rgb(0, 255, 128);
+    border: black 1px solid;
+    text-align: left;
+    margin-left: 20%;
+    padding: 30px;
+   width: 630px;
+}
